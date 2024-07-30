@@ -4,7 +4,7 @@ import '../App.css';
 function Nav() {
   return (
     <div className="">
-      <header className=" bru font-mono ">
+      <header className=" p-1 bru font-mono ">
         logistics Nav
       </header>
      
