@@ -1,15 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="">
-        logistics app
-      </header>
-      ships, planes , trucks & vehicles
+      <Nav/>
+      <div className=' body1'>
+     <div>
+      image
+      </div>
+      <div>
+        about, services, why us
+      </div>
+      <div>
+       ships, planes , trucks & vehicles
       smart storage solutions & containers
       real time tracking website
+      </div>
+      </div>
+      <Footer/>
     </div>
   );
 }
