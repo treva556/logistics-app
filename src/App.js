@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Body from './pages/body';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Nav/>
       <div className=' body1'>
      <div>
-      image
+     <Body/>
       </div>
       <div>
         about, services, why us
